@@ -100,7 +100,7 @@ class TicketControl {
 
         let jsonDataString = JSON.stringify(jsonData);
 
-        fs.writeFileSync('../server/data/data.json', jsonDataString);
+        fs.writeFileSync('./server/data/data.json', jsonDataString);
 
     }
 }
